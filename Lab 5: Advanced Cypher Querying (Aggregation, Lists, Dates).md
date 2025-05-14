@@ -41,34 +41,34 @@ From this lab onwards, each lab is fully self-contained. That means:
 
 ## Step-by-Step Instructions
 
-### Step 1: Clean Up the Database
+## Step 1: Clean Up the Database
 ```
 MATCH (n) DETACH DELETE n;
 ```
-To make sure all the old data is deleted, go to Instance and click on the icon.![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcOntJVoE2SbKbzHDmha9zOkyucF7WqOhWCf9r9SqAtwfhqkS9nH17d3pUcC61-YhVIVLhLWGSBCMd6tvYwbK0-4mlTfYs2dg1P8xsq6GOeLk_lgJ5lWNuy9a2PR8cu_7KKWO_-?key=fSQhMkXZaLSnxkwxr-9KdY8U)
+To make sure all the old data is deleted, go to Instance and click on the icon.![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeY3OLP2xzb8LoBk2ZmNtuxRzjvyqCBH2TtTEber0B8-tRpYro6cB-8C0fwDl7zdeHow5rPxGnqwItIWdZGSmbqghS14aqWTcdUjQ3kGJNmHQ9mNszAny8jvln7-bk79LwIQilk?key=fSQhMkXZaLSnxkwxr-9KdY8U)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfg3VSqjL6ykmWGi34g82j_hAUrlGzVL7RdBIticD8xPCbJURHAcdkkGu-2OPMpIWKUjpD3xi3fotmHzI-JhYh8Awfq6HP_WSzN7oejqNcMxLtqIzrYDRGS9x5uyvHKt8Aqf2r6fg?key=fSQhMkXZaLSnxkwxr-9KdY8U)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdJCyHDlEdqLSL4P99DKbqINjPFuRxwTymhdpfpkyGEQ3CsbOJpwzJlYnh1ieXHgt74gIIA9tkQHGgzz5ZqJmrLqbraBckaZSNY3blSszXWfPwVv8GzCvsSs5XAjVQ17czc4N8TvQ?key=fSQhMkXZaLSnxkwxr-9KdY8U)
 
 Click on “Reset to blank” and then click on “Reset”.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdx5nqSrOu3ROXcxS6RKqYrdlOdF3WIzIc8m-F8XuWNou-K-aQcbiUv0FBuN3oxWKio-JD5JP9nF9fbm1rgw9XRCZe0Qmgv9emfzJw8JOqJMmx0NmjWKhMJ0edRq8Uue0AB7PCH?key=fSQhMkXZaLSnxkwxr-9KdY8U)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcYYCUNO_ng-lcS6Owp2CS7YKyty1M2ZUYdwHI_RNEFVNckK8SOD7muXEK3eHFY7SLu_p0f-Mqbh1KmJbqWe9_t-WYHLnbaBszoHgq3Esh9wD5ChZPR3jYMZRn8d2AL-IJPgdhb?key=fSQhMkXZaLSnxkwxr-9KdY8U)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXejbXfZxWzx0on7gEVk0UreNfc4jQ2cgPtC3CQKCCa4jE0nI_4xqSaQglJqHtLojMzMcME34cczUfECnhI-IQ5g4rcynz_Ckn2IQ1ah8NWK7VHYmlJqj4kIlEvNpxk9wRNQ7g3LOA?key=fSQhMkXZaLSnxkwxr-9KdY8U)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcHJMsIchpvPH1Mo2MxJoYm_Fv5JGRjTJciuTdPcrf7UIAyzc5cRBda-oFSmnC8D8fKYbAnDYVuKVXVH2oeInXtZIOm8nIAJQeG32pdtrLVaE-q7D36LiCW3Rls1HiYjOKO1QSCNA?key=fSQhMkXZaLSnxkwxr-9KdY8U)
 
 Come back to the Query Section, refresh and ensure that the nodes and relationships are not there.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd8r1cnzZav5xTFxtlJcxpFFLBjKzNHI14_BLfXMT3J7PUMfW-xhYA38VK9BUW0WFjmNvwWVbZHVe6fQZQcFTBlnsrTW2CT6tdxcC8Jyv_U38aCV0Te78vLukAb9G0BZz6F1Q24?key=fSQhMkXZaLSnxkwxr-9KdY8U)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXezxvLD3fXDHxrF-k12v_GOpDMGSbw9UcfkP4-v99UCIVrQhsv4krYfIeHgKhLlAFiJ6kJDpCW6fGgTZ6twyKPUVXFpBDCI_hV_2m53sUoVSfBV1nCKWYBHW3gcP2FFSIXqf-m4?key=fSQhMkXZaLSnxkwxr-9KdY8U)
 
 This will clear any previously created data to ensure a consistent starting point.
 
-### Step 2: Create Sample Data  
+## Step 2: Create Sample Data  
 Buyers
 ```
 CREATE (:Buyer {id: 1, name: "Alice", email: "alice@example.com"}),  
 (:Buyer {id: 2, name: "Bob", email: "bob@example.com"}),  
 (:Buyer {id: 3, name: "Charlie", email: "charlie@example.com"});
 ```
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfPuP2gwttRG7WMtbyCXj_3DfHwU2LTv6sVCuLKHJgkDfiIYpTx9m8G6JBCJptWQDarQaR0nMgmW1MMgtS34Enfm00-FGkePEjjwbTLx_jmIoCOjfw2kjJtZ6zp-yxgNtyAEaFxJw?key=fSQhMkXZaLSnxkwxr-9KdY8U)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdN26N7q89HMtpw4kqysle04MSTHgQfSWRlJPw71TPpcmxJVytIjf3s7Xstialv-DNss7GT9-KWuYuv4eh2CvBl3pngwdB59GbNv9_T4k8vj3n4VsF4c3w5frIM_rrAN3NiBoDrmA?key=fSQhMkXZaLSnxkwxr-9KdY8U)
 
   
 Products
@@ -80,7 +80,7 @@ CREATE (:Product {id: 101, name: "Laptop", price: 1200, category: "Electronics",
 ```
   
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcTAg91TFhgKrxnIRg4slpi-LicMdb3ZYpkLVeRTjZ1MWbimlPseeLT7_FWntR8qBDW5p2UEiIde_rN4RasjB0Cqtp1G7zOkdaVFUYQmGsBUc-aYXyzlxpuv_tAeN1rJfcWjiHI?key=fSQhMkXZaLSnxkwxr-9KdY8U)  
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdS9K6Aln9tsf3h9QDVO0eCux3sfmX2pPh2q54URf4wAYvNr5p6aceg5HUc7Bg_znEbSmogf4LtVeoD4HAxTKo7fBgPyuIFXtyA58UKOxGSzUn0E-hOMnUiQguTep_t-X5vj49E?key=fSQhMkXZaLSnxkwxr-9KdY8U)  
   
 
 Orders and Reviews
@@ -92,7 +92,7 @@ CREATE (:Order {id: 201, order_date: date("2025-04-01"), amount: 1200}),
 ```
   
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd5PtPxa4vECERIZiCCmXBWe59rhrq5rZ1tE4SltFNW14k5XkKIxRxqvInkqDgCLFVl7EHs1p5vAT8gbjKouoyHTch04rPBZC7x2l8n4IXMX_GMT6Fbl1Sd26mrGGE2sO-Tadtvcw?key=fSQhMkXZaLSnxkwxr-9KdY8U)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcb5eTlcZVfMYq_nPS3gtD1SjnLQuS3yZrnk5aQgWRy4ZuXEMKutc8a4cyyf8jmGT0IgM80aklqgkzvLb3F-bpvXWSVG62lkNFtmfP9zWNs_zHKPjJKQhFgC2EJNGuJGvHKQjsUpg?key=fSQhMkXZaLSnxkwxr-9KdY8U)
 
   
 
@@ -117,9 +117,9 @@ CREATE (b1)-[:PLACED]->(o1),
 (b3)-[:REVIEWS]->(p1),  
 (b3)-[:REVIEWS]->(p3);
 ```
-### Step 3: Aggregation Queries
+## Step 3: Aggregation Queries
 
-#### Sample Example – Count total orders per user
+### Sample Example – Count total orders per user
 ```
 MATCH (b:Buyer)-[:PLACED]->(o:Order)  
 RETURN  b.name  AS  Buyer, COUNT(o) AS  TotalOrders;
@@ -135,9 +135,9 @@ Write a query to:
 -   Return buyer name and total amount spent
     
 
-### Step 4: Use of COLLECT to Return Lists
+## Step 4: Use of COLLECT to Return Lists
 
-#### Sample Example – List all products reviewed by each user
+### Sample Example – List all products reviewed by each user
 ```
 MATCH (b:Buyer)-[:REVIEWS]->(p:Product)  
 RETURN  b.name  AS  Buyer, COLLECT(p.name) AS  ReviewedProducts;
@@ -151,9 +151,9 @@ Write a query to:
 -   Return Bob's name and a list of product names he purchased
     
 
-### Step 5: Date Filtering
+## Step 5: Date Filtering
 
-#### Sample Example – Find all orders placed in the last 15 days
+### Sample Example – Find all orders placed in the last 15 days
 ```
 MATCH (o:Order)  
 WHERE o.order_date >= date() - duration({days: 15})  
@@ -170,9 +170,9 @@ Write a query to:
 -   Return order ID and order date
     
 
-### Step 6: Multi-step Queries Using WITH
+## Step 6: Multi-step Queries Using WITH
 
-#### Sample Example – Find average price of TechPro products
+### Sample Example – Find average price of TechPro products
 ```
 MATCH (p:Product)  
 WHERE p.brand = "TechPro"  
@@ -180,8 +180,9 @@ WITH p.category AS category, AVG(p.price) AS avgPrice
 RETURN category, avgPrice;
 ```
 ### Your Turn  
+  
 
-**Write a query to:**
+Write a query to:
 
 -   Match all products reviewed by users  
       
@@ -193,53 +194,100 @@ RETURN category, avgPrice;
     (Use WITH + RETURN)
     
 
-### Step 7: Challenge Queries
+Step 7: Challenge Queries
 
-#### Exercise 1: List products reviewed by more than 2 users
+### Exercise 1: Top Reviewed Products: Which products have the most reviews?
 
-**Write a query to:**
+### Exercise 2: List products reviewed by more than 2 users
 
-- Match all products reviewed by users
-- Group by product
-- Filter products reviewed by more than 2 users
-- Return product name and review count
+### Write a query to:
+
+-   Match all products reviewed by users
+    
+-  Group by product
+    
+-   Filter products reviewed by more than 2 users
+    
+-  Return product name and review count
     
 
-#### Exercise 2: Find top 3 most purchased products
+### Exercise 3: Find top 3 most purchased products
 
-**Write a query to:**
+### Write a query to:
 
--  Match all orders and the products they contain
-- Count how many times each product appears
-- Return top 3 products by purchase frequency
+-   Match all orders and the products they contain
     
+-   Count how many times each product appears
+    
+-   Return top 3 products by purchase frequency
+    
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+Some more Advanced Queries for you to check
+
+  
+
+### 🔹Products Reviewed But Not Ordered by Buyer
+
+Business Requirement: Who is reviewing products they didn’t buy?
+
+  
+```
+MATCH (b:Buyer)-[:REVIEWS]->(p:Product)
+
+WHERE NOT EXISTS {
+
+MATCH (b)-[:PLACED]->(:Order)-[:CONTAINS]->(p)
+
+}
+
+RETURN b.name AS Buyer, p.name AS ReviewedProduct;
+```
+  
+  
+  
+  
+  
+  
 
 ## Solutions
 
-### Step 3
-
-Aggregation – Total amount spent by each buyer  
+**Step 3** : Aggregation – Total amount spent by each buyer  
   
 ```
 MATCH (b:Buyer)-[:PLACED]->(o:Order)  
 RETURN  b.name  AS  Buyer, SUM(o.amount) AS  TotalSpent;
-```
+  ```
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcUay14haWVvCCt5M4nSsQdDkvqVxZdI5tD9jUb8x-rceh1c_5in5LSislrP1l4u1bbq8UBARQDjEe5qherhDeecHw6FjhU9eIax07gg73G4BiGoHwyABCF4s5GOqukboZJZbLb?key=fSQhMkXZaLSnxkwxr-9KdY8U)
+
   
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXco-AS-7O5EM5TSfA61wbP-pQ0NuYO42md2uYNOdNTtXTyBPMW3EOUNXu-jgIyprbpdBd2PXmr6KI8IuPOQ_AGpHx9AhHfQoLPl4nEINmxwpfzYsBUO_iLJ6orMGO0R84FPNc1d?key=fSQhMkXZaLSnxkwxr-9KdY8U)
 
-### Step 4
-COLLECT – Products purchased by Bob
+**Step 4:** COLLECT – Products purchased by Bob
 
-```
+ ``` 
 MATCH (b:Buyer {name: "Bob"})-[:PLACED]->(:Order)-[:CONTAINS]->(p:Product)  
 RETURN  b.name  AS  Buyer, COLLECT(p.name) AS  ProductsBought;
 ```
   
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcZlQ1nQu9oRLZ8onRfz4pUODEszA3QYfEn72hAMQIk14cebsm_ETvgdpZA6b1oY3h8zypbu8HgCmwc3XYD9uFPwmGOaUrVDNs5K0zXux4WUR7sBRt0jHLl6nFqy08BYMhL6HdW?key=fSQhMkXZaLSnxkwxr-9KdY8U)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdlWsbQ5OPL-rv2nKV_KXLsEX2IBXGRt1CJhjd_srDc1sSzwdVW5lzvuW02My5aB3bHd7mYyxK5oE4gOeMPldPqylffh8WLfP_E3s6MAxrxATfOdPi6JciEddOborzxXOlIjYAd?key=fSQhMkXZaLSnxkwxr-9KdY8U)
 
-### Step 5  
-Date Range – Orders placed in April 2025  
+  
+  
+  
+
+**Step 5:** Date Range – Orders placed in April 2025  
+  
 ```
 MATCH (o:Order)  
 WHERE o.order_date >= date("2025-04-01") AND o.order_date <= date("2025-04-30")  
@@ -247,10 +295,12 @@ RETURN o.id, o.order_date;
 ```
   
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeiozDYNcj0jXO7bdFqdNx-xIZaaGp18fCvRERIggCLlBCC4dlKKef1fOhBuzRTSwI8S5GH7JGi-wNNAZiatk8f5ttUBvVNulBAWFwSPTn8W0PC0XFtL__hJApNXLGUbzRtl66grA?key=fSQhMkXZaLSnxkwxr-9KdY8U)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcFL-Yob-UnsqJBkac_1aHqWnRhoE2PKSQhbf0A8hH7M7JnFcJJW047Yz0LPV9AX1qHF69BFIx2YBEK5_dpvmE5XPCsnammLij5mgGHVtlzPTul2ClGkbyuPGMCn4Yem_NhlXV-qg?key=fSQhMkXZaLSnxkwxr-9KdY8U)
 
-### Step 6  
-WITH – Product review count  
+  
+
+**Step 6** : WITH – Product review count  
+  
 ```
 MATCH (b:Buyer)-[:REVIEWS]->(p:Product)  
 WITH p.name AS Product, COUNT(b) AS ReviewCount  
@@ -258,10 +308,31 @@ RETURN  Product, ReviewCount;
 ```
   
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeiZMOxuy4TZYEapTmKpNXGfYBkAmmwVEoThKjXYHip8tMsdXvCG4pYW1CMmnbbVDOHLo2_DUg-ksmAI41wBmaFb3IIqCmYXTgXU1td1OOjANhs-3bVD6kT2a-4okGXiEBgQGUSGg?key=fSQhMkXZaLSnxkwxr-9KdY8U)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdqMY-n-xcWuCQYNIsLu9RYQnurdj86huv7x3KmzPYxZnbJ6M-zygHYpldtoDcWZFFMXukjS0wpKvLPELiRrnIAOes3MhJeGGYdsIaZ7Tpplpex5ksb9TQjT1fdbj-P-5fiTzswmg?key=fSQhMkXZaLSnxkwxr-9KdY8U)
 
-### Step 7
-**Challenge 1 – Products reviewed by more than 2 users**  
+  
+**Step 7.1**
+
+Challenge 1 - Top Products with maximum reviews
+
+```  
+MATCH (b:Buyer)-[:REVIEWS]->(p:Product)
+
+RETURN p.name AS Product, COUNT(b) AS ReviewCount
+
+ORDER BY ReviewCount DESC
+
+LIMIT 5;
+```
+  
+  
+  
+
+**Step 7.2**
+
+  
+
+Challenge 2 – Products reviewed by more than 2 users  
   
 ```
 MATCH (b:Buyer)-[:REVIEWS]->(p:Product)  
@@ -271,11 +342,16 @@ RETURN  Product, ReviewCount;
 ```
   
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcdOG16A-1HvEduWeURX1Rg2HGriGtOdUun7DPMM9WXqIh_qH-VeADLKAo_cSq23ZR8vyxt3_VXDeZvB5X9DTUfluRqO8HOKLEEUzEqJP8Nf58SStriu_rtDz31lBqjwH4KExhB9g?key=fSQhMkXZaLSnxkwxr-9KdY8U)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc185B2ODFHshlnbpNXyWg_pOlGOMvPVGvLE-RIe4sHEDrP8RsU_-MpKddRid66VWKvI2aK-jirOV9-5gQTloRIOm8lEpt7hkjDzObIZHSNmG7ZaEKB5R_4LjizaXbQ7Kzj9gUIow?key=fSQhMkXZaLSnxkwxr-9KdY8U)
 
-### Step 7.1
+  
+  
 
-**Challenge 2 – Top 3 most purchased products**  
+**Step 7.3**
+
+  
+
+Challenge 3 – Top 3 most purchased products  
   
 ```
 MATCH (:Order)-[:CONTAINS]->(p:Product)  
@@ -286,7 +362,9 @@ LIMIT 3;
 ```
   
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcOgrgASCpV5CxYtlgmYf0kymduIYGNpt2_4_WaNWwx_5HHGDSjA4SpEk4tq1oYuBXA7vw6GkKQDp-9UYzNA_MVFg24W1TJb27k3V23bwJHhcLvHax6_Gw_SpW185ujFXDBJSZV?key=fSQhMkXZaLSnxkwxr-9KdY8U)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf7hNkUz7dLqxWKmKwcys0-TqDzVBi3iUQIyAqNG9Bv0jfyPXnHx6dkIKphF4_JzukaRtKrkKDH2eQdjPgR-dAXNFAKXjoML9jTBMEqUGopdddcWX-a8HZvSHLPtZgkLmAjS8Zv?key=fSQhMkXZaLSnxkwxr-9KdY8U)
+
+  
 
 ## Expected Outcome
 

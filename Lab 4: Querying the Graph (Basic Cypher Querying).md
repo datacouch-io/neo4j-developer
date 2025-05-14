@@ -1,4 +1,5 @@
 # Lab 4: Querying the Graph (Basic Cypher Querying)
+
 E-commerce Graph Analytics - Retrieval and Pattern Matching
 
 ## Objective
@@ -9,7 +10,7 @@ The objective of this lab is to develop core querying skills using Cypher, Neo4j
 
 To successfully complete this lab, participants should have:
 
--   A running Neo4j Aura instance with data from previous labs (Lab 2 and Lab 3).
+-   A running Neo4j Aura instance
     
 -   Core graph entities (e.g., Buyers, Products, Orders, Reviews, Sellers) already created and linked with relationships.
     
@@ -17,6 +18,7 @@ To successfully complete this lab, participants should have:
     
 -   The provided lab setup script executed to initialize consistent data for querying.
     
+
 ## Lab Overview
 
 In this lab, you will transition from graph modeling to graph querying. Using Cypher, you will retrieve information from your e-commerce graph by writing pattern-matching queries. This includes filtering nodes based on property values, finding relationships and interactions (like purchases and reviews), and applying logical conditions to combine criteria. You’ll also answer practical business questions - for example, listing products a user purchased, identifying recent orders, and filtering products by rating or category. This lab solidifies your understanding of how to extract insights from a graph database using Cypher - a critical skill in any data-driven application.
@@ -40,9 +42,17 @@ Now that you have modeled your e-commerce system with products, buyers, orders, 
 
 These are common graph traversal and filtering questions - exactly what Cypher was designed for.
 
+## Lab Initialization: Cleanup
+```
+MATCH (n) DETACH DELETE(n)
+```
+  
+
 ## Lab Initialization: Setup Sample Data
 
 To ensure that all future queries return valid and relevant results, please execute the following setup script once at the beginning of this lab. It prepares a consistent dataset with buyers, products, orders, and realistic relationships for graph analysis.
+
+  
 
 Now run the following command:
 
@@ -50,11 +60,11 @@ Now run the following command:
 ```
 // === Buyers ===  
 MERGE (alice:Buyer {name: "Alice", email: "alice@example.com", location: "New York"})  
-MERGE (bob:Buyer {name: "Bob", email: "bob@example.com", location: "California"});  
+MERGE (bob:Buyer {name: "Bob", email: "bob@example.com", location: "California"})  
   
 // === Sellers ===  
 MERGE (s1:Seller {name: "TechStore", store_name: "TechWorld"})  
-MERGE (s2:Seller {name: "HomeEssentials", store_name: "HomeWorld"});  
+MERGE (s2:Seller {name: "HomeEssentials", store_name: "HomeWorld"})  
   
 // === Products ===  
 MERGE (p1:Product {  
@@ -76,7 +86,7 @@ MERGE (p4:Product {
 product_id: "P104", name: "Microwave Oven", description: "Compact oven", category: "Home Appliances",  
 price: 450, currency: "USD", stock_quantity: 15, brand: "Panasonic", rating: 4.6,  
 created_at: datetime("2025-03-10")  
-});  
+})  
   
 // === Orders ===  
 MERGE (o1:Order {order_id: "O301", order_date: date() - duration({days: 15}), amount: 1200})  
@@ -104,7 +114,7 @@ MERGE (alice)-[:BUYS {purchase_date: "2025-04-10", quantity: 1, payment_method: 
 ```
   
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdZV1_kqtK4oGt6HbKC8vufxX8ppLfkwxCr2lcE3vm45_Kw8jcGEmwLD3LIdiVKAFt8y345flpRcmVmRWY3Mzmbdm8fESb4hGXVLjWSmysyH9ZmLTFxFe4q9P4f53OvsDqhgHGROA?key=RIKNCgfgalpOddP8aiexC5jX)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcAurLZb92nG9y9ImlR36HxIFbzoB_apUXN0pco-9WqN2d_1v11rPJ-nx_CEZ3k3fRxKk_ILieyYdzcWwd0v3Xcu4PwJVaSPiFXwZYJyM_Kuqp5k8Xbq8y0NB0p087PflFIN97eUg?key=RIKNCgfgalpOddP8aiexC5jX)
 
 ## Practice Insert (For Testing)
 
@@ -171,6 +181,7 @@ RETURN p.name, p.price, p.category;
 MATCH (p:Product)<-[:REVIEWS]-(:Buyer)  
 RETURN p.name, count(*) AS review_count;
 ```
+
 ### Your Task
 
 Write a query to find all users who purchased a product named “Laptop”.
@@ -199,10 +210,12 @@ RETURN p.name, p.price, p.rating;
 ```
   
   
+  
+  
 
 ## Step 5: Sample Business Queries
 
-**Query 1:** Find all orders placed in the last 30 days  
+Query 1: Find all orders placed in the last 30 days  
   
 ```
 // Template  
@@ -212,7 +225,7 @@ RETURN o.order_id, o.order_date;
 ```
   
 
-**Query 2:** List all products purchased by a particular user (e.g., “Alice”)
+Query 2: List all products purchased by a particular user (e.g., “Alice”)
 ```
 // Template  
 MATCH (b:Buyer {name: "________"})-[:PLACED]->(:Order)-[:CONTAINS]->(p:Product)  
@@ -222,55 +235,72 @@ RETURN  DISTINCT  p.name, p.price;
 
 ## END OF LAB
 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
 ## Solution Key
 
-**Step 1 :** Retrieve all Buyers
+**Step 1**: Retrieve all Buyers
+
+  
 ```
 MATCH (b:Buyer)  
 RETURN  b.name, b.email;
 ```
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXftyX5UIuR5Gh5PGLtmKLVQudxIu-ZNb22O5670mKvQuD0Lb_hh58LOP7yn-VOnz4-bFtzaQwYukj1mIP8YkajSqtMXOOBJwP6AIiuIAZwMl9yEI2rpGpxJMJ-w20UqKqOeMscU7A?key=RIKNCgfgalpOddP8aiexC5jX)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeLeZ697a8M92WdL0oClVRlCoR85Y9QJExkr_SLgDFoAJ5lszhHuVJFjy96Y5CgIQFasyk0UCQIRRCVfl8r1clpXzaZztRGlasyy7h4uTFWg3kGOF156mpq3lniKroxwcbpvrXOlQ?key=RIKNCgfgalpOddP8aiexC5jX)
-
-**Step 2:** Products in Electronics under $500
+**Step 2**: Products in Electronics under $500
 ```
 MATCH (p:Product)  
 WHERE p.category = "Electronics"  AND p.price < 500  
 RETURN p.name, p.price, p.category;
 ```
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeSSA5H01EnctanR0mxMPy-DqDhiYXcUz1w7V7QMDkc-0oGXG9F-BAIlValCZ0sMIQ6_FIEKKzmtRst5Hu3KPWvW_aWJdj1FCyMe9rI8Jaf8J0i_aEuoaJnH26CktXIDIWXO9i6mg?key=RIKNCgfgalpOddP8aiexC5jX)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcpH1Efa52IzSevl63FO2zWgLCF0KplvVQn1f28cFOVObFmErbK-vrEF6NVfWyGoO1LEsASg2wrHuf5jBHcOjZHVqXV_Sd8lEk-Vodi7zrPaNfqKLvOUxGX5eD-Gkrdo9-tv8Wyzg?key=RIKNCgfgalpOddP8aiexC5jX)
 
-**Step 3:** Users who bought “Laptop”
+**Step 3**: Users who bought “Laptop”
 ```
 MATCH (b:Buyer)-[:PLACED]->(:Order)-[:CONTAINS]->(p:Product {name: "Laptop"})  
 RETURN  DISTINCT  b.name;
 ```
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc4zhuMRkQgRXrr1Gjqcw0P55lsdGt02cU27GfS6YMWbi4F1F7FiX3zezuOT4lwwkLyZrUDa_Up6JisRa0iQnnO4xlGjbkDgMAzZRcPtOUVadvIQ830gHBAyybkjMZRUB_yuUgKpA?key=RIKNCgfgalpOddP8aiexC5jX)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcV4vQlkv1pM9wEaImzxFLrZL76ANaN92fi5qtblZL2lTomygB48vvUcwKlMdEh64dVovLywF4qV9JlVUCwnRXbUrJv1_6WVfa4CDDumizkXtIAmGj0eBMM4ovWibPmoGy2iiItaA?key=RIKNCgfgalpOddP8aiexC5jX)
 
-**Step 4:** Home Appliances with high price and rating
+**Step 4**: Home Appliances with high price and rating
 ```
 MATCH (p:Product)  
 WHERE p.category = "Home Appliances"  AND p.price > 300  AND p.rating > 4  
 RETURN p.name, p.price, p.rating;
 ```
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcF-4nLSuJZ_SUvu1Jw4ey9ORxopawKf8ohV1ENAC7gUs-hKfuj-Wzwn8LUSKpQH1lw8n9qMglCxHNHNfEIHXI97CMe2Y4JUis43zw85vDqzcih3_cft4V4UJuVyI0i-td_Ae2T?key=RIKNCgfgalpOddP8aiexC5jX)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdjLEp1mgMkkk-PyKdhiajl9UwSGNiUvguIfaZ1eqn7tmW9ruTTf3w2w7QCuDXD9qYVs2E0Vn6hillMCHSRk89tTF9CMhiahCIv8WAKF7ip0QvZXMwmopjXd6snsyxukqtb2IFh?key=RIKNCgfgalpOddP8aiexC5jX)
 
-**Step 5:** Orders in last 30 days
+**Step 5.1**: Orders in last 30 days
 ```
 MATCH (o:Order)  
 WHERE o.order_date >= date() - duration({days: 30})  
 RETURN o.order_id, o.order_date;
 ```
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdi8owtrh9ODTWJwf_r8p-e4Ts68Npw9Jj7EP2kd_9NipyqCxXqccEYMMgTIiiN5r4cFRAbeWiXaapZlFrS9TRdFsc2bfAeXxcHx7FO77OaaL-OjOADJZw_NgilRMy3qZNbton2Fg?key=RIKNCgfgalpOddP8aiexC5jX)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeSIkAgae3RpgqYHK3Re4JncpL8C6ViWhcvrdeP3Vt1rMvACevSqDmBEjJlRPaaN7zMitXYf7sY3-2874PnHhIeXdfHjO70kQnjOPP5enKa4r4a5vvDhXOFNuvpaAILx_UXapZE_g?key=RIKNCgfgalpOddP8aiexC5jX)
 
-**Step 5.1:** Products purchased by "Alice"
+**Step 5.2**: Products purchased by "Alice"
 ```
 MATCH (b:Buyer {name: "Alice"})-[:PLACED]->(:Order)-[:CONTAINS]->(p:Product)  
 RETURN  DISTINCT  p.name, p.price;
 ```
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXezP5Utm4oUNj6Poxf4hm2X0uINcbF2m8gnEfAMQuoOg40jDp1m8neaDXxMjtefNGT4rVJiZVy4SL3d8pbiQhfxieq867U5lq1g3rIcUNsHkFYRlSBygFDJMoBcxHa8pyasbxfFwg?key=RIKNCgfgalpOddP8aiexC5jX)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXesflGDdK9tq_ju5LrL6FWyo5iRIfjQQdWLL3y8ggkbvybHMoLb7ZxWK-QLFYFLv0XX6yMaXFUpiyJrJ92O2PqKeAILCBQ2lt_KCBe4NuFCcUI8a3-lOcBq6gFguN8Sdlr9OA3W9A?key=RIKNCgfgalpOddP8aiexC5jX)
 
 **Expected Outcome**
+
+  
 
 By the end of this lab, you will be able to:
 

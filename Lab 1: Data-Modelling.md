@@ -113,8 +113,36 @@ Ensure:
 
   
 
-Please check the solution below only once you are done and submit your answer.
+*Please check the solution below only once you are done and submit your answer.*
 
   
 
-Solution PDF download link: [Lab2_Ecommerce_Solution.pdf](https://drive.google.com/file/d/1YSnL3d-V7oYRHh6854BTHUb_4Zouu1F7/view?usp=drive_link)
+**Solution PDF download link:** [Lab2_Ecommerce_Solution](https://drive.google.com/file/d/1YSnL3d-V7oYRHh6854BTHUb_4Zouu1F7/view?usp=drive_link)
+
+  
+
+### 💡 Business Questions for Model Evolution
+
+Now that you’ve built your initial model, your
+
+business stakeholders have raised additional analytical needs.
+
+Based on the following questions, evolve your model by introducing new properties, relationships, or labels/sub-labels (hierarchies):
+
+  
+
+**Requirement 1: Customer Reviews Sentiment:**
+
+"Can we analyze the sentiment of customer reviews?"
+
+  
+
+**Requirement 2 Customer Segmentation:**
+
+"Can we analyze customers by their behavior – such as frequency of purchases, average order value?"
+
+  
+
+**Requirement 3: Location-Based Recommendations:**
+
+"Can we recommend local sellers or show delivery time estimates?"

@@ -33,27 +33,49 @@ https://console.neo4j.io/
 
   
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfgLnnccSE9sLoW57_w18eg63jBJehNrptZrNT3QQY8z_h2_I5rD2R2CtNoQqM_a_aEUTQ_2K3IuSYOjC4eCWheHIXE9MaC4phk3v1MtkDHkJ4A0C2pkF5suynSLSUBGgZjuqDo?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfYmlT5i2EL25aTeNHJu5xAXZIP7egz-oIYwhkh2lRleE57JzC28ZCMNI4RhQ-r_qZNEPFgCKjOlBc9hjQjFfb1ok_HUKKuZaa-lCjJTTffljE2Oil5f1lT5RG08fXkFc4B-sLo?key=MVUMBubVWObqGhv-nBk1M66o)
 
   
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfD05rw9mei7VdnR0llzN07178Y3qDGQyPhQAzoCM_3Gk_R79yxDNSzhTqmi44-AQWvXbWTpLnkq0c4dxrDzgwADjNy3b7eNh6vukfCAvhkTyeeeLAy-2KqluTsRblHwRsE7TfT?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfKLn0hFMKxMZgLRu-4rdE-bwUo8uETvi65Al2W8W5KGq2bwUpDUVeMgqkPRgytA2o4VuqQp099iAYB1yB_BAS8EAqEvIXGP5_gZwn2TmMITdPzyH2SMYUl_1cd_acHwHjEZkTi?key=MVUMBubVWObqGhv-nBk1M66o)
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 2.  Select the version (paid or free)
     
 
 Copy the key and click on download and continue
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeAZoNy52OSZzAWiOOUEAfv1qr9ryWGEe9mhs-5Kq0hJN1tm3EjWX-MLIa-amVnxsAWeahxD3RwavB4GyvNVjylXjv7UMVrbOeXQXR1Dkmk79RZoDuxxWzjNUvrLa6IwLyx1n0V?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfd48xPNsqe6MsNM9yHo-THOaJJgoq8BDtd5WQsIBovrwAJDTmf9kMhA5k6EhgcydfVRsECt_koRP-zgR_rRom5lQLYTUpaVYLbN_lH4ypJz2zlHjeqqke1QHwFqtEHMSrFq6Rr?key=MVUMBubVWObqGhv-nBk1M66o)
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
 3.  Instances are created, now select Query and connect to an instance. You will be forwarded to the query page.
     
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeuBcM2i_VgdQ4iifha6vV1iwqlhQISSL9xDL5x--NiyLfyvShpc6lDGZH-jZWvLlEUcrlvXRYSQVaJ_6EcqPYmpKLgKD_1KMAZC5hn8ZUWNh6SEA5iC8ZQnGMnU6SedLhfEv05?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdRUB1YZgeJ6ni8_Pq-6B8VSqWnYgxriGXyigdGgbgv9E20WgG7pYomSeNW-RriBHW9_UbDLJcz1eq2pP4v8dZj5M1cWmJfVSG0vRs2nyQNCPJ6dVxLtnq7ePGGjNzSMuh_rmah?key=MVUMBubVWObqGhv-nBk1M66o)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeNvIP9m7Ad6r0k8Z-iWkglalYq6cqvaxzGVS3RlvXu62GQUWe6NGQXYyU1hKBzVgTXrQ9qv2NAa4XZfHfvqqrGmJx5Dxvl-zDAnANJJISJLeYJhZf4pg5BouiVvgiSLBj70Jdd5Q?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXePhoYp5WUoOe-fd0PCjXrmG8r4vUUCXROTyOd_rBif7_2Me-wRx7PnQ2r7lRSvP8KTjUv3JOxyngxdplT35i0TcdDMQP801vTt94Ic_T2ivm0a0GyKJRCzYE078Xd_aycXijYJgg?key=MVUMBubVWObqGhv-nBk1M66o)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdfn6uXP0KJt6-x6Zb-Hw7iL9fehwm76yB30rG6jdzjTnHX1EKS_BwSMF1sgYTFrIPARQCTKRnS5ZhJvD71iuHvgC4YVoFO5YPaa9McKVz9z3elq--MJ6Cz-M7ojp8wGOzI1r-Y2w?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeUMyu6e0Lrrf4oFGnWVLoZv6HplLhj6xhGVp4v2QfTrnbvHa219BpxMGEIqb8s9AiHM9VOm0F8RRdHYQ-DNCk7Yx-NTlHqZerG-J5jVYGdLRPxvTvOn0XzboUhfisdT_d6NDMXag?key=MVUMBubVWObqGhv-nBk1M66o)
 
   
 
@@ -64,7 +86,7 @@ We’ll use the “Import” option for this task.
 1.  In the Neo4j Browser, click on the "Import" option
     
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe-QPRcTe2zXzSpb84iU25_qikC-bDcICklvaDG3Yeg6G40VSa87n0OXB4ILS-6MoM4PpfVYUYJkyu12dt_0pyA93kINa-EfAU5D-UuM96we-wkDxIzzIhBibo0i7mxwaonKBv3Lw?key=MVUMBubVWObqGhv-nBk1M66o)  
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc63QVXOs2rSzDLAbfzyjpGeD-s-pp-wU7a05uorGIdQWTHeb8eog51HeedqICgC2Cs9gDHVOkN1sywUE4UvtCMNaFaa-q_kwLiyTZI8e9jTA4tAKobjNIXJelhaNq7_jkiwJDPsQ?key=MVUMBubVWObqGhv-nBk1M66o)  
   
 
   
@@ -73,13 +95,13 @@ We’ll use the “Import” option for this task.
 2.  Click on "New data source".
     
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcG1TkxE3ayGAh7pNms8zf7CDYlh4wX1Lrs8XwIbuN1Smt7DptgCYM6MCcJhtNK8KCdw5mx7D_1DEd8ogBzQ90-IMME0M1XsjB8oSzRc2UDRN1Q1IkfjY0y_FZxV_ccqSHxd_Vllw?key=MVUMBubVWObqGhv-nBk1M66o)  
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdoD0nMwfWMvMP4OS4plQP9ycv22rf6Icpl8Pl7JPCMGrliF4NbYjSA8uGTgplWBduSnIJFrgycbIMJJWU1jYvk5nGx6Vy9DUVNURgP1NxrXaYBq2w8MKi30CmuGQgfBChU8rZJeg?key=MVUMBubVWObqGhv-nBk1M66o)  
   
 
 3.  Choose the CSV option:
     
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXczggWNAsToUM-RkNOp56L_ZrfVC3kG2x0E0DwVMIE55mkvp3F2WQiM7pb4FFIUesoI_hovxWCz8J0nQPgdjOZrndQfu7i6JMqQYDViAU02oAKvconMw0Ry6353kEv10HLDSao2_g?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXda0TR4csysdNFu6ArPFptkkelFtoVOzrcHaoLj5F7ufMaO8wOwhBrN54MHtM2I_hM3FuddNsiIip0yRch8v_Fb27vlMw6IuyT1tCiv7zvFBhod5gzmdga0QoyuecIZqB4p9RTKaw?key=MVUMBubVWObqGhv-nBk1M66o)
 
   
   
@@ -87,12 +109,12 @@ We’ll use the “Import” option for this task.
 4.  Click on browse option from drag and drop option
     
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcUpn1FPzahPLAdU8hpl2iGfy-EOauDwLgW_Q1H-F5c7BHEyCrc7H4Fy6uclVCha8zYEE_5Z9bar_sq0B0satSDZvvdhScdGZ--r67MdjtyXJrT-y6ax4vX3xO7PQ3P1pa1vSCriw?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfwIeNmbDuEQOhL9JsAZ3JfaI5uY7oxksmU975mgmjuqof8HGCrmyE__kNmY8KALocDOd9DH_VkLxfKfeNpPNE1c9MEHgMnew01B-ltb756HdZ4bcVct3GZNitdNJwMbaRloJBW-A?key=MVUMBubVWObqGhv-nBk1M66o)
 
 5.  Upload the files from the data folder, which is inside the resources/day1 directory.
     
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdqOkYqGrW0Z2mz7Q46NaTN1TqCwKamxufRjddDSM6PtsTUMmB2jl9giVarznM6kKAxx2vs9zzTyOGMd5vMm_Q8QkQ0sdgCaVFL828KiBR5xbKmK0F7z982rA3OdNeEu95tQcxI?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfAKWPidbC1DXTOMj-HOBRujcoh0vEpgIQdJc8vxD8sRchrGEhAJZ3YcKs_zjyYz-hl_x3gZWh3U3a-HTmhv1fTGfh7BHXegUYOtvRpz4RQqQdOLmlhLvul2E4F61FXDtxWXg4J?key=MVUMBubVWObqGhv-nBk1M66o)
 
   
 
@@ -109,13 +131,13 @@ After you’ve successfully uploaded your CSV files using Neo4j Aura’s Data Im
 -   These components are stored in the graph and are now ready for exploration and querying.
     
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcOR8BdEUpleDzfNyM-_GSnhoNPVed2_sq9G_wuap21lfv_kqi6bsFV5iZTd-4-bAyJMsk3ltuvPJ5K2qwl1g1yx9RJ682MUcA0xk-ZlyjmjkpCWs6jDpCu1XSDFDs0r0btYRCKVw?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfFuABDsxG5WnWw0EdWUeo9z42KCXXiaqslBzDptDYq_B9KQlg9AHMSye7HfSzCi4edexCT_YpPx7UHo-ZGOxLEuHvJivjPwCCn4AEgjFAAvBHCY1C2HgYpCeu_3MzM6PMhiL1v-Q?key=MVUMBubVWObqGhv-nBk1M66o)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXc84n5Fbf6EHo4dBdzMgZeTXjkJhz8u4TfCiZfx0FRcaSkAskV28qDV69TLdUSqY9xk_AZ9AaOJ2Du4ATgVWmEe5CtiLE9HGXsSjM893iPkb8fTm1OGoEadJcngVUfUY2hb5k5vGQ?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdDHBFasv2Dr6Pg1Ddb0HtwpMUvpIjTrvGQKxBqPM_puxjgVOOI1ZuhESdZapkFOTy-Ya927JNhmYGxgSdrEnqpFYIpZt6o8aVYsfD9RCsKWkbl_5RSC7eZvp51oDcq-R0ZHR8mjA?key=MVUMBubVWObqGhv-nBk1M66o)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfzspeliNO2Mjz0dNa1XNRbkTAPVDVIRMAbBO5p-kVERKCIO15LZNlQO8oJPwc8O0aXL2y0dTbUuPRZX2MsPC6V1qYKHIlQ2rTic_R6GVXWqMWPmrMG1bKftpwmajntdist6YMd?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf8kFvKegdRTL6DoXbWyHK_gbTzFqTi4EsUlE0fYziEcKQqpxDqdR0EFjJhPThcJsa4SwIQ79FwQCaR5Ya5m80lozFQgo7xybNeJKjUYvB4Wtwpt3dBRUryF7Mp8TydEHFO623S?key=MVUMBubVWObqGhv-nBk1M66o)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdd93JPlsb4KEC3VGcdPUy4NtymnUqIeKYGK9PT56Pq1rfhpo0fUgkyV3TCx1gsNTAn-dDzSFbqyg1wS2jammqOmB2JHmYHB3Da5OMUxCZOYg-MI25wIPTolwQgPKgkE7IaaUojpg?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdoNWqfAE9hjk8zBlaftoCQdZrXyuBR14SvqfAdLipaBHKFHsfDlsGpbrKn64Fhu1iLckCFtrRZzgKPhTtOQKgHEHj7XQFie7FLVad_baFQEQmw600lavftZ_6NZz987-6Qu08Mng?key=MVUMBubVWObqGhv-nBk1M66o)
 
 ## Step 4: Explore the Data Visually
 
@@ -124,56 +146,52 @@ After you’ve successfully uploaded your CSV files using Neo4j Aura’s Data Im
 1.  After clicking on "Run Import" you will be directed to the Explore section.
     
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfv3YE4MDT0K4yfvAcHzZvqiwqARAObCKYffYusdOdyYt8831RduvXxzjmBuv9flJcxvIs5NKjSJWMe9VOQFmtvtW6-GKmQ3PuD9NpFHwWQhILEgrdjnTTMXU1G5oN8Vbf2RLRb4g?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeh1nGnszE-0BviAPT9BKJ9D-nG9J14FwjdAWi9x58kUd_UUOkQMbF2MPEVrSyr7b0-DGX972RVi84jfUZSo0rAUmw1LDL2zIQbFO4lmO5g9Q0Z0d_fG6wCYf5yqgiBHPB_JkyyQQ?key=MVUMBubVWObqGhv-nBk1M66o)
 
 The Explore Section is divided into 4 major parts. They are as follows:
 
-1.  Search Bar – This is where you input Cypher queries or use natural language prompts to retrieve data from the graph.
+2.  Search Bar – This is where you input Cypher queries or use natural language prompts to retrieve data from the graph.
     
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeoKadCYygN-Ksi-DWT-pceeieqTNTijF1HZeow48vY66-QPj6CF9Wf7hvniPx-4dx6xxmiks_EAjYx-nBnD4MNGDa90LjmoG0XXbbn1KfN8RRhuLHrClaq6QWS58vRMyOBLXC5?key=MVUMBubVWObqGhv-nBk1M66o)  
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcQ5LXFPiRHIrSaJ3lRw1FIVVY4nuasN1h1AmEy2vEi1TgK-k3hMtMUPUXODvGgCJEi-xvbUPobmF0oxbSYYLao2dZlFQHiklOce7O2OATjZL7tu8ETzGmvMytk2weosp9nzFh3?key=MVUMBubVWObqGhv-nBk1M66o)  
   
 
-2.  Selection Summary – Displays the total number of nodes/relationships shown and how many are currently selected.
+3.  Selection Summary – Displays the total number of nodes/relationships shown and how many are currently selected.
     
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd7LBnX200mqtsI2rtPki-Yt2lBkhbAkXjeQtR1IMN_jTkiUsc5qrHjfOsdsHYiL96JrLe4EDGeyMZf-v4N4rqX_b-JF-Vedml0ynMwKRwdUNvRNMODwu85x14vYVCQUInj1x6Axg?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfILvA3s53gB39t9ZR0u3jWDLKROfs3rAYiC4TxRutWcm-Z4-w63s0Fyi-nY3AexKHjclevB-fHgK6uDNm6yHOgwHMlExJdd1xnC5VOoZwB8Cx0TM7J5AtSsTA1kg5HyfVii3Y2Vg?key=MVUMBubVWObqGhv-nBk1M66o)
 
-  
-  
-  
-  
   
 
 The options are clickable and can be expanded to get more information.
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd-9LW12KvfOtCj9QO38Pvx-Rg3niujFE3qQB0P_YjIbO9YNnizOwip-sYLamWcuS990uEj7bBq7IsDgXVaCYZVXAoiFFTvIagA-zWOPn7VjnlFfyx_0X0ghHSe3IgjtyDQ0Fts7Q?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeZ4CIySuGXr5NoNCP9cyLZgQz4BgM0TSN33SqFS2AnlNvYOMFoY3cRCiGH12pR9cqFzG2MO8-6bKDI4jNkHmwLuxCrRZ-TBU2_NCAKlqxUHJJ8CarNyZhKySyJ6mHuunrHT5EsRQ?key=MVUMBubVWObqGhv-nBk1M66o)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXflS9giUGaGHm1zHQP0ixNYrPwrxM7fgcJbL7PHRRCVLrFW8awfH-duMqC4uIPj6-jd6_23zTTbtzjWOMJ8thIWb5IeUj-nwW9DiFj9e9YCmgrrs9SP8cSJSA_ZLJHzqXdD57Ol?key=MVUMBubVWObqGhv-nBk1M66o)  
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfieZ-smMfNQILeLo61-FJm6VizjNPrx-p_HLp1zEJiJ5c-8TLKUSSYG3PPCrNh_pArQrpDHoOjsxdVNK6rhZTeQdn7wy12Zfuw8_TsA8eZ5smrXwJs1tTlT7-5kWgd66fFcOFd?key=MVUMBubVWObqGhv-nBk1M66o)  
   
 
-3.  Layout Selector – Allows you to choose different graph layout styles, such as force-based layout, hierarchical, etc. By default it is Forced-based layout.
+4.  Layout Selector – Allows you to choose different graph layout styles, such as force-based layout, hierarchical, etc. By default it is Forced-based layout.
     
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcJTNbvHH4Bhc2RnWkMMg8emHSoOmq2ttni0kuK5AdIGBM9iW-yJCrBpIHL73wYLudUn2JWyBXeL87D-8U-usET4d8KXyyzpYh3yeebJTBEUbNlVGdZSTvaVWB6IKpNqW6BScRQPQ?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdD2aZifnCBLX-2c7i64OIW1acu_vibDdF0J6jCP9zuyjjCocxwOUOSZxK8_6_vSVumBRdvrRKTkghiEcr8Qsz8yT2iRdjz1KT9EN5pY0_BHGz1AwCl1PH4NKT5w9VQr-xyFUrMgw?key=MVUMBubVWObqGhv-nBk1M66o)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXe4oBZO-KsRgvaLNXG__ZQs6-mESMdmzsrex1MsAJ42RS2os17xMZ568tfVZ72F69tS59yFuSN6XLxyQwflhRzfMt4skPdPwKyrXnbeirDZDOmO9XdsmVSqIZ60iB-kDHaI0Ni8PQ?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdUyCtW1ZtjPxKq9_FySMR5t5htD7EVH84wuZb4t3vQwP29BTor67nBCa11WPBC-Ac5RuuheOgWKlQjTUZm0rWrYk44Tdp-VSfy7xMLepn0hJVJf9QWSiENZfpvdbJ3C9E5HFr_9A?key=MVUMBubVWObqGhv-nBk1M66o)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXftUVYYvbgpfW-tq9wuIHUFKi3vvTC_bucJk2I_sQvdDks1jDF9Pt3ZU4cOHUzJ1Lff5PKj1hGGKFKA-tnmEYaiqJa0P3ui0V641qngOIRjFYeaR0W1NIiZcf-66sDopiS7hpP0_A?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcUj3eSXW4hHRuiV5_KTjgWCS2eywiAc2JlqFM8WlGQlEfUFwAROYX62kToMP2kQ_csSXuNy4_459G46Fxy_oTa--U260FLLH7JFAC5QfHW7CuktnmknzbfJ-7yIJmahXa2Lwi5gg?key=MVUMBubVWObqGhv-nBk1M66o)
 
   
   
 
-4.  Node/Relationship Categories Panel – Provides filtering options by category (like "ActedIn", "Movie", etc.), allowing you to control what’s visible in the graph.
+5.  Node/Relationship Categories Panel – Provides filtering options by category (like "ActedIn", "Movie", etc.), allowing you to control what’s visible in the graph.
     
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfise7XhA7MwVAiNwHeSBO8NnxiZLYkD4TUw_G3lj9N7j-e9UxnC16xi3GyahH-M-h-3N_t54QOUESw-oLgg6lWTnPuDPRxM73FkskSIbE-Qj4G-kmpV-zCEfyBGbOmXCoLEjIArg?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdMEYgegVAtTZTuqXpQUcvIFJpGqvzlMn5CXLOSeruHLDJdfRxL7CFXjINYRccVuMsb6PIWTbKtwgQfLu54qJ_tdtk5XkTow11NNo49GyqPobKBypauLVKkHcH4a_4gOVnsJIf0XQ?key=MVUMBubVWObqGhv-nBk1M66o)
 
   
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeO9fJc9o4TMJRFkdN2dhFVQG2oWgVe0LBbWC2ezp0bUH8p8qZ5C1ototutsqmtohdwYqbgSjPX4CMtlvtrl0-3ZCKkK2AktlgEr2XBn7bLnb-rM7Zokg8Ls4yEkLjsE5mz9-Am?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdrE_5f6NyzTT743X6gJkpBWxdN3s1TDwsqm6n_EG1YtPuAIgAP5SYaAsNQY3BvSqRtg5pIfXOSjlqhxhWBc7MUJaEQ7fViLmTWmBywlaPpB_VHBo-nlFwXOtvrqioU8XubK5vz?key=MVUMBubVWObqGhv-nBk1M66o)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcFCToB54GiLwUu3lMJoZvyZL2wEzvMbNtvWvbdFcqW9TnzJyTT0-icoLTJZDC9YGABIR8vQuvMaLHEaB2OcnpAxhHMr7F5NJCnGI0rGb-cgXtn0ltWIQe-4kp4JQvzyuiff-5Lfw?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd9uO8C26J1tdxU3zmWlq2invp2Y58QBh3EMFnQgwBsOvTL-BPpiLOzgmKvLfPxkuDDtwptjIgZLnYZjpKNxhEFIbnbigm2HGtRAafK_9PeT5RB7oj_i5pkbuzC88-fN3zmQbj69g?key=MVUMBubVWObqGhv-nBk1M66o)
 
   
   
@@ -204,7 +222,7 @@ The options are clickable and can be expanded to get more information.
       
     
 
-1.  This is where you write and run Cypher queries to interact with the graph database. The prompt (neo4j$) indicates the Cypher shell.
+5.  This is where you write and run Cypher queries to interact with the graph database. The prompt (neo4j$) indicates the Cypher shell.
     
 
 These areas help you explore the schema and query structure of your Neo4j database visually and programmatically.
@@ -212,7 +230,7 @@ These areas help you explore the schema and query structure of your Neo4j databa
   
   
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcLkJ0EX8YbCVQgsegN7mATV0vlLwABbvDzkqrZDIorlVnC4SXnQ62YzvIiTIcwYVMibt4IyHdWJJdUiOq3w6wI7PsVC4lgn3TA5RIoLBC1HGNOc5_hxxenetFJH2GSzHMLv5GU?key=MVUMBubVWObqGhv-nBk1M66o)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfAF9XxOv4Oso_MnOe-ql0qjIJz3A4Fw-Gj5cPRLYvktT4zojxSnsXWWkTBcv4c14Kf6bMclN7Sdj4FtfeuQ7NAN68KQhhfeLkblrlpp6hB_Q4q8eaykgVOOcAyfgtZefRMfeq8?key=MVUMBubVWObqGhv-nBk1M66o)
 
   
 

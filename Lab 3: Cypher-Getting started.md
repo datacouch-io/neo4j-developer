@@ -53,14 +53,18 @@ You are continuing development of the e-commerce platform where:
 1.  Click on “Query” section.
     
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcP0eDSz8LEJnRE1gNHzhB3NhTKNUMVc9PgkHnoQNdt9P8uektLzEzDAj1hPhtVkZqKWpe3hTjlKHbKEQTIf2D6eEVi7K_MjgQKsmSs_zJiHCy2KOafEWMhtckcnq4TRrmHP1ch?key=8DB8J4SCCoOVJG5UrjanCcyJ)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXevW18WIFDXOzO1d3KB_0MAk7F1H02i0P8rM1ffu-l1Cj2eAMrgfwnIpfZtqBfr4Aht_-sY4xCEi7bHvUeuXf4WWLlKcORMWGkAPqVXJ_o0q1uzXkNDtbd0zOIa9woz53t2QasN?key=8DB8J4SCCoOVJG5UrjanCcyJ)
 
 2.  Use Cypher CREATE to insert sample buyers, sellers, products, and orders.
-	```
-	// Create Buyer Nodes  
-	CREATE (b1:Buyer {id:  1, name:  "Alice", email:  "alice@example.com"}),  
-	(b2:Buyer {id:  2, name:  "Bob", email:  "bob@example.com"});  
-	 ``` 
+    
+```
+// Create Buyer Nodes  
+CREATE (b1:Buyer {id:  1, name:  "Alice", email:  "alice@example.com"}),  
+(b2:Buyer {id:  2, name:  "Bob", email:  "bob@example.com"});  
+  ```
+
+  
+  
 
 **Your Tasks:**
 
@@ -76,18 +80,25 @@ You are continuing development of the e-commerce platform where:
     
 -   Two Order nodes: Order 301 and 302 with respective dates and amounts.  
       
-  
-> Tip: Use the example format to create these nodes.
+    
+
+🧠 Tip: Use the example format to create these nodes.
 
   
+
 3.  Paste the query and click Enter or click on the icon to process the query.
     
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfivFWem6EcBI6ygDglv-M5G-QoFzsmEjl1h9TKtdjIwDDlz2HuN2JnGI0C7a0dbVMuxnjqxB2KoputkI7al0jY05tKrX-A5BXzS0RWHIW3AoxN1SdZ1wtyGYqRI8L-gMdOWDohhw?key=8DB8J4SCCoOVJG5UrjanCcyJ)
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdvv3lk0c3UHlrjf2gbrdSSU02toiKR3XcHtQ5r9xgH9D7iKosSD7GD_VDZrTRDTGVt0day7EWxpigzb2RVk02PfJxCOojZe_xoNtSP76m6F42SNFvcOhBIgS-zlMACP5JOkoOumA?key=8DB8J4SCCoOVJG5UrjanCcyJ)
 
   
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfKDriwW93gkp177Lad-OM8WUODB1cq6F28qzBQ-f-z27xXV4SWwXAq-2AWObvBI9hx5fG6pMs8fpG8-89lVVn6ARjeACdkzYB9ENabrRozgUPp4tTPOMGKyRJgUAMTWPAqImou?key=8DB8J4SCCoOVJG5UrjanCcyJ)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcV5Hye6XIrE2VQ9NRw8ZRSOjJ7EpTUkpXphP_xMt6lIb5UT-_7YB8Ccd5CXThFaaV8n14WrR-rqXs7PV8zw8yhtflu2WOCzWV6jiMnfzQyn5ldKsBjzQw93jDlUmq_-LWPeSfE?key=8DB8J4SCCoOVJG5UrjanCcyJ)
 
+  
+  
+  
+  
 
 ### Step 3: Create Relationships
 
@@ -95,23 +106,31 @@ Use Cypher MATCH + CREATE to add meaningful relationships.
 
 1.  Enter the query:
     
-	```
-	// Buyer buys a product  
-	MATCH (b:Buyer {name: "Alice"}), (p:Product {name: "Laptop"})  
-	CREATE (b)-[:BUYS]->(p);  
-	```  
+```
+// Buyer buys a product  
+MATCH (b:Buyer {name: "Alice"}), (p:Product {name: "Laptop"})  
+CREATE (b)-[:BUYS]->(p);  
+  ```
+
+  
+
 **Your Tasks:**
 
 -   Write queries to create:
     
+
 	**Relationship 2: Seller sells a Product**  
+  
 
 	-   Connect TechStore (Seller) to Laptop (Product) using a SELLS relationship.  
+      
+    
 
 	**Relationship 3: Buyer follows a Seller**
 
 	-   Connect Bob (Buyer) to HomeEssentials (Seller) using a FOLLOWS relationship.
     
+
 	**Relationship 44: Buyer places an Order**
 
 	-   Alice placed an Order with id = 301.
@@ -120,13 +139,18 @@ Use Cypher MATCH + CREATE to add meaningful relationships.
 	    
 	-   Add PLACED relationship between Buyer and Order
     
-	**Relationship 5: Order contains Product**
+
+	  **Relationship 5: Order contains Product**
 
 	-   The Order 301 should contain the Laptop.
+	    
 	-   Add CONTAINS relationship between Buyer and Order  
+      
+    
 
+  
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfXWz82EAZ2UbKL7utintNh-iPIzscS0ddfrylBhMTGKtyTeW2A2EDLcOpS0ycmdxbCTdY4rIx12RMtRHbSzrFoGwfO58tzKl_9SlvrKwH8E-SIlmbFl056ZyWWFJIIWt5b2YpvrQ?key=8DB8J4SCCoOVJG5UrjanCcyJ)
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdFxuZ22J0UuPH_4D5grXUtiNwvbcdA3He2M5zzplJmTynrgRYtW56ahQmb7ckCpTXjdBv6dJGvgC8ZaTTRv4vuLLZwiPc5oxVjiAG0F37liDt6KLdctmn-HXtEieOtcF0K3Ih0KQ?key=8DB8J4SCCoOVJG5UrjanCcyJ)
 
   
   
@@ -136,21 +160,32 @@ Use Cypher MATCH + CREATE to add meaningful relationships.
 If you want to ensure you don't create duplicate buyers, sellers, or products, use MERGE:
 
 1.  Enter the query:
-	```    
-	// Merge ensures no  duplicate Alice  
-	MERGE (b:Buyer {email: "alice@example.com"})  
-	ON  CREATE  SET b.name = "Alice", b.id = 1  
-	ON  MATCH  SET b.last_login = timestamp();
-	```
+    
+```
+// Merge ensures no  duplicate Alice  
+MERGE (b:Buyer {email: "alice@example.com"})  
+ON  CREATE  SET b.name = "Alice", b.id = 1  
+ON  MATCH  SET b.last_login = timestamp();
+```
   
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXfBvo5HPibWGWzUHNrnd-cNgdXgfWzDQLCGPxf1nqs63JNd0HsuyEAxUBLRhcaZsl4w2f6JXvnsnv5y2VlXS4ZUSAdXEzcY9bTLzLUZ7u3Anc8hGIpf1zAjf_RJ0vetyhSJuUsPjg?key=8DB8J4SCCoOVJG5UrjanCcyJ)
+  
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcaF6p-ejaWEehxV4W5ksiE0SF104KjOt1Qn37DgmEgHesB9Z4oSEbU7rOV7BEmI-Vj6FPwAYCwO78sFhVo5lTqkRaw9vxaUHlSpJrjZh8ZIRVkjOJjwgSY0NSVkJ3fI-eVdHeQwg?key=8DB8J4SCCoOVJG5UrjanCcyJ)
+
+  
+  
 
 **Notes:**
 
 -   ON CREATE block runs if node didn’t exist.  
       
+    
 -   ON MATCH block runs if node already exists.
     
+
+  
+  
+
 ### Step 5: Batch Insert New Data
 
 Batch inserting helps when inserting large sets.
@@ -161,26 +196,38 @@ UNWIND [
 ] AS buyer  
 CREATE (:Buyer {id: buyer.id, name: buyer.name, email: buyer.email});
 ```
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcH7l-RQAHeLQlzY_K6QeWzs78GTJ8Oky1_WkMdMur_4jhn9-oo-Fgswz1bH1Jt_kiAmYUDvLBkMz_m8kPMh1VTsJ9SJNG488vbfzdEWZEVbGwc6emhMH4VAMYH9t-XqGlY_wFA?key=8DB8J4SCCoOVJG5UrjanCcyJ)
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdAWS6pzPzEJJvRfQ_hLtIr7AMJhEo24_Oc2_K7xqHk-pgyMVgIrPAfe7gAexTamkzSHT4HG_q6Qc9S6RlAaOtjoqKa_kmzXNeGbKIAaZaXSEj20P6XF095hF3uufrmRj7rrnoy?key=8DB8J4SCCoOVJG5UrjanCcyJ)
+  
+  
+  
+  
+  
+  
+  
+  
 
 ### Step 6: Query Your Graph
 
 1.  #### View all nodes
- 
-	```   
-	MATCH (n) RETURN n;
-	```
+    
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf34q4p8fsYMIlql5pDM5YirNEmcYrEkCb-h91MNbD5s4tjNG4qK5IvjrojikyXqmU01r7-3O56sgD1UKtvd48_xJg2NLF9VCLpluz3vmVMsitZ4QVE3_VwIOJ6wdc0iK9oW58nsA?key=8DB8J4SCCoOVJG5UrjanCcyJ)
+  
+```
+MATCH (n) RETURN n;
+```
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXcYpn_RMn1z38hP3aVKPm2CroFdXIRvctjEekBwYBCyxPnfSKelEZWpEo2UUYTkcVQjTUWNr-vawHvKuRZwgtTzCY__6BbgDOsGCkooWooBG_OsHWFiowSWvXgzArfxbRVC1riEuA?key=8DB8J4SCCoOVJG5UrjanCcyJ)
+
+  
+  
+  
 
 2.  View all relationships
-
-	```    
-	MATCH (a)-[r]->(b) RETURN  a, r, b;
-	```
-
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXdCehmCX_QRyqtBVJGuVOrB3JTTCz0kz2w5QEjCqSDuHg6DKsdMrVJpthQrjD13WxXsGY_isNZFWoaIb13pBMaHLXpGE0bbDbfUOeWv5DIuhybPy7Wyen4oStoVwl5ITM8-L-Xh3A?key=8DB8J4SCCoOVJG5UrjanCcyJ)
+    
+```
+MATCH (a)-[r]->(b) RETURN  a, r, b;
+```
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd9oMmh4cB_JK5A1qUonTLPn2kIl7Lv9wZY5ixvhdsEd1J3qna-M9dwTwBxmezRqhA0kmhwm6PGv08mLLgwSKexNYD3gA4l16WlNaIZOK-r5XkEdTY9buqd6PjUxDuDmNmtWhq9BA?key=8DB8J4SCCoOVJG5UrjanCcyJ)
 
 ## Expected Outcome
 
@@ -197,12 +244,18 @@ By the end of this lab, you will have:
     
 -   Practiced batch insertion.
     
+
+  
+  
+  
+  
+  
+
 ## Solutions
 
-### Step 2: Create Nodes
+**Step 2: Create Nodes**
 
 Use Cypher CREATE to insert sample buyers, sellers, products, and orders.
-
 ```
 // Create Seller Nodes  
 CREATE (s1:Seller {id:  101, name:  "TechStore", store_name:  "TechWorld"}),  
@@ -217,12 +270,13 @@ CREATE (o1:Order {id:  301, order_date:  "2024-04-01", amount:  1200}),
 (o2:Order {id:  302, order_date:  "2024-04-02", amount:  200});
 ```
   
+  
+
 ### Step 3: Create Relationships
 
 Use Cypher MATCH + CREATE to add meaningful relationships.
 
 Enter the query:
-    
 ```
 // Buyer buys a product  
 MATCH (b:Buyer {name: "Alice"}), (p:Product {name: "Laptop"})  
