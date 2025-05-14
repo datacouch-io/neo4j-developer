@@ -292,10 +292,3 @@ ORDER BY fraud_count DESC
 """).data()  
 return data
 ```
-## Solution:
-
-### 1. Clone the answer key repository
-```
-git clone  https://github.com/your-username/fraud-detection-ans.git  
-cd fraud-detection-ans
-```
