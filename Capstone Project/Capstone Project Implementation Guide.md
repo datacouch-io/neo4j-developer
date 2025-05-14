@@ -66,10 +66,21 @@ http://127.0.0.1:8000/docs
 ```
 ### Option-2: Browser Based Lab
 
-1. Open VS Code  
-      
+1. Open VS Code
+
+
+2. Set up a virtual environment
+	```
+	python3 -m venv venv  
+	source venv/bin/activate # On Windows: venv\Scripts\activate
+	```
     
-2.  Add Neo4j credentials in .env file
+3.4. Install Python dependencies
+	```
+	pip install -r requirements.txt
+	```
+
+4.  Add Neo4j credentials in .env file
     
 	```
 	NEO4J_URI=bolt+ssc ://<your-neo4j-aura-instance>  
@@ -77,13 +88,13 @@ http://127.0.0.1:8000/docs
 	NEO4J_PASSWORD=yourpassword
 	```
 	 
-3.  Run load_csv.py
+5.  Run load_csv.py
     
 	```
 	python3 load_csv.py
 	```
 
-4.  Run the FastAPI app
+6.  Run the FastAPI app
     
 	```
 	uvicorn  main:app --host 127.0.0.1  --port 8000 --reload
