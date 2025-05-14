@@ -66,8 +66,10 @@ http://127.0.0.1:8000/docs
 ```
 ### Option-2: Browser Based Lab
 
-1. Open VS Code
-
+1. Open VS Code 
+	```
+ 	Ensure that the app folder is opened within the Capstone project directory located on the Desktop.
+ 	```
 
 2. Set up a virtual environment
 	```
