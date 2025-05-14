@@ -28,25 +28,26 @@ Project Setup
 
 ### Option-1 : Local Setup
 
-### 1.Run load_csv.py
-
-python load_csv.py
-
-### 2. Clone the repository
+### 1. Clone the repository
 ```
-git clone  https://github.com/your-username/fraud-detection.git  
-cd fraud-detection
+# Clone the Neo4j Developer project repository
+git clone https://github.com/datacouch-io/neo4j-developer.git
+
+# Navigate to the Resources directory, which contains all project files,
+# including 'solution-routes.py' for participants who need assistance during the session
+cd neo4j-developer/Resources
+
 ```
-### 3. Set up a virtual environment
+### 2. Set up a virtual environment
 ```
 python3 -m venv venv  
 source venv/bin/activate # On Windows: venv\Scripts\activate
 ```
-### 4. Install Python dependencies
+### 3. Install Python dependencies
 ```
 pip install -r requirements.txt
 ```
-### 5. Add Neo4j credentials in .env file
+### 4. Add Neo4j credentials in .env file
 ```
 NEO4J_URI=bolt+ssc ://<your-neo4j-aura-instance>  
 NEO4J_USER=neo4j  
@@ -55,6 +56,10 @@ NEO4J_PASSWORD=yourpassword
 Create a .env file at the project root:You can also add .env to .gitignore to keep credentials safe:
 ```
 echo ".env" >> .gitignore
+```
+### 5. Run load_csv.py
+```
+python load_csv.py
 ```
 ### 6. Run the FastAPI app
 ```
