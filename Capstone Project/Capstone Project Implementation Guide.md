@@ -62,11 +62,9 @@ NEO4J_URl = URL you can see after selecting Inspect from the <img width="29" alt
       icon on your instance.
 
 <img width="584" alt="Snipaste_2025-05-15_11-01-08" src="https://github.com/user-attachments/assets/6abcc0d5-d62d-4812-85ab-5b4a15b83a46" />
-
-
+<br><br/>
 <img width="233" alt="Snipaste_2025-05-15_11-01-18" src="https://github.com/user-attachments/assets/cff04ecd-0304-47d0-8ad4-576a9f69f7df" />
-
-
+<br><br/>
 <img width="563" alt="Snipaste_2025-05-15_11-01-27" src="https://github.com/user-attachments/assets/f8632182-1f97-4fec-81a1-f4706f305e9b" />
 
 
