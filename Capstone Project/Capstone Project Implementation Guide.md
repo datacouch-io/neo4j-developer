@@ -53,6 +53,21 @@ NEO4J_URI=bolt+ssc ://<your-neo4j-aura-instance>
 NEO4J_USER=neo4j  
 NEO4J_PASSWORD=yourpassword
 ```
+
+NEO4J_PASSWORD = password you get when creating a new Instance.
+
+<img width="488" alt="Snipaste_2025-05-15_11-00-51" src="https://github.com/user-attachments/assets/185102c0-3615-403c-9ccc-ef14aff73510" />
+
+NEO4J_URl = URL you can see after selecting Inspect from the <img width="29" alt="Snipaste_2025-05-15_11-01-35" src="https://github.com/user-attachments/assets/db632f26-1813-4801-b4da-ba50bf65c526" />
+      icon on your instance.
+
+<img width="584" alt="Snipaste_2025-05-15_11-01-08" src="https://github.com/user-attachments/assets/6abcc0d5-d62d-4812-85ab-5b4a15b83a46" />
+
+<img width="233" alt="Snipaste_2025-05-15_11-01-18" src="https://github.com/user-attachments/assets/cff04ecd-0304-47d0-8ad4-576a9f69f7df" />
+
+<img width="563" alt="Snipaste_2025-05-15_11-01-27" src="https://github.com/user-attachments/assets/f8632182-1f97-4fec-81a1-f4706f305e9b" />
+
+
 Create a .env file at the project root:You can also add .env to .gitignore to keep credentials safe:
 ```
 echo ".env" >> .gitignore
@@ -82,7 +97,7 @@ http://127.0.0.1:8000/docs
 	source venv/bin/activate # On Windows: venv\Scripts\activate
 	```
     
-3.4. Install Python dependencies
+3. Install Python dependencies
 	```
 	pip install -r requirements.txt
 	```
@@ -94,6 +109,7 @@ http://127.0.0.1:8000/docs
 	NEO4J_USER=neo4j  
 	NEO4J_PASSWORD=yourpassword
 	```
+ Refer to the steps in Option-1 for the credentials.
 	 
 5.  Run load_csv.py
     
