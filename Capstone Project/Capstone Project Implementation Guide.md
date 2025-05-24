@@ -35,7 +35,7 @@ git clone https://github.com/datacouch-io/neo4j-developer.git
 
 # Navigate to the Resources directory, which contains all project files,
 # including 'solution-routes.py' for participants who need assistance during the session
-cd neo4j-developer/Resources
+cd neo4j-developer/Capstone\ Project/Resources
 
 ```
 ### 2. Set up a virtual environment
